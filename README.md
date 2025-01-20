@@ -15,7 +15,9 @@ connect BOOT0 to GND to run application or with 3V3 to reprogram
 KiCad files can be found under /KiCad, gerber and BOM separately under /Fabrication.
 Under /STM32 I have uploaded a basic test firmware. This firmware waits for an IR signal, then opens a terminal and echoes hello world. You may need to tweak the paths a little to get it running on your system. 
 
-Check out the project post on hackaday: https://hackaday.io/project/202218-hidden-hid-v2-worlds-smallest-rubber-ducky
+If you are interested in purchasing this PCB, I have uploaded it to the PCBWay community. Here you can order either the bare PCB or the assembled PCB directly: https://www.pcbway.com/project/shareproject/Hidden_HID_an_invisible_USB_Rubber_Ducky_3a8cd27f.html
+
+Also check out the project write-up on hackaday: https://hackaday.io/project/202218-hidden-hid-v2-worlds-smallest-rubber-ducky
 
 ![cover-cropped](https://github.com/user-attachments/assets/ce369c1e-d2b1-4981-887d-d5b81b368dbf)
 
