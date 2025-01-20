@@ -5,6 +5,7 @@ These include:
 1. Removal of SWD programming pins to rely only on STs internal USB bootloader, which avoids the need to painstakingly solder the PCB to the STLink debugger every time I want to change the program. Now it is only necessary to bridge the BOOT0 test pad (middle) with 3V3 to select bootloader, or with GND to select application (see image below). After connecting BOOT0 to 3V3, the STM32 can then be programmed by inserting into the USB port and using the STCubeProgrammer tool to download the hex file. 
 2. Layout changes to enable easier assembly of the spacer elements
 3. Switching the spacer elements from LEDs with no electrical function to IR phototransistors which also provide a simple on-off remote control. This allows the device to be remotely armed and disarmed once inserted.
+   
 
 ![rev2-bot](https://github.com/user-attachments/assets/c173be7f-866d-4739-8500-147a9e69233f) 
 
